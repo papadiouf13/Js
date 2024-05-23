@@ -1,0 +1,95 @@
+{
+    "promotions":[{
+        "id":1,
+        "name":"promotion1",
+        "dateDebut":"2020",
+        "dateFin":"2021",
+        "active":"false"
+    },
+    {
+        "id":2,
+        "name":"promotion2",
+        "dateDebut":"2021",
+        "dateFin":"2022",
+        "active":"false"
+    },
+    {
+        "id":3,
+        "name":"promotion3",
+        "dateDebut":"2022",
+        "dateFin":"2023",
+        "active":"false"
+    },
+    {
+        "id":4,
+        "name":"promotion4",
+        "dateDebut":"2023",
+        "dateFin":"2024",
+        "active":"true"
+    }
+    ],
+
+    "classes":[
+        {
+        "id":1,
+        "name":"licenceDev",
+        "filiere":"devWeb",
+        "niveau":"licence 1"
+        },
+        {
+        "id":2,
+        "name":"licenceDev",
+        "filiere":"devWeb",
+        "niveau":"licence 2"
+        },
+        {
+        "id":3,
+        "name":"licenceDev",
+        "filiere":"devWeb",
+        "niveau":"licence 3"
+        },
+        {
+        "id":4,
+        "name":"MasterDev",
+        "filiere":"devWeb",
+        "niveau":"Master 1"
+        }
+    ],
+
+    "apprenents":[
+        {
+        "id":1,
+        "nom":"Sene",
+        "prenom":"Mamadou",
+        "telephne":"70 546 98 13",
+        "idClasse":2,
+        "abandon": false
+        },
+        {
+        "id":2,
+        "name":"Sall",
+        "prenom":"Ibra",
+        "telephne":"77 456 85 23 ",
+        "idClasse":2,
+        "abandon": false
+        },
+        {
+        "id":3,
+        "nom":"Diouf",
+        "prenom":"Gora",
+        "telephne":"78 254 96 31",
+        "idClasse":3,
+        "abandon": false
+        },
+        {
+        "id":4,
+        "nom":"Wane",
+        "prenom":"Baila",
+        "telephne":"76 214 13 65",
+        "idClasse":4,
+        "abandon": true
+        }
+    ]
+
+    
+}
