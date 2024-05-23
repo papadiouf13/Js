@@ -173,12 +173,8 @@
                         <div class="w-1/3 p-6 bg-white flex   border-black-800 rounded-lg dark:border-gray-700">
                             <form class="w-full flex items-center ">
                                 <label for="countries" class="w-1/2 text-sm font-medium text-gray-900 dark:text-white">Select an option</label>
-                                <select id="countries" class="bg-gray-50 w-1/2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                                <select id="Selectclasse" class="bg-gray-50 w-1/2 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                                   <option selected>Choose a country</option>
-                                  <option value="US">United States</option>
-                                  <option value="CA">Canada</option>
-                                  <option value="FR">France</option>
-                                  <option value="DE">Germany</option>
                                 </select>
                               </form>
                         </div>
@@ -276,36 +272,8 @@
                                         </th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                                        <td class="w-4 p-4">
-                                            <div class="flex items-center">
-                                                <input id="checkbox-table-search-1" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-                                                <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
-                                            </div>
-                                        </td>
-                                        <td scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
-                                            <img class="w-10 h-10 rounded-full" src="https://plus.unsplash.com/premium_photo-1715876234432-aee502a59dcd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Jese image">
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            Sam
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            Fall
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            77 564 10 32
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            <div class="flex items-center">
-                                               DevWeb
-                                            </div>
-                                        </td>
-                                        <td class="px-6 py-4">
-                                            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit user</a>
-                                        </td>
-                                    </tr>
-                                   
+                                <tbody id="tbody">
+
                                 </tbody>
                             </table>
                         </div>
@@ -338,7 +306,7 @@
             crossorigin="anonymous"
         ></script>
 
-        <script src="/data/js/script.js"></script>
+        <script type="module" src="/data/js/script.js"></script>
     </body>
 </html>
 

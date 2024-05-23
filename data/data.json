@@ -56,14 +56,15 @@
         }
     ],
 
-    "apprenents":[
+    "apprenants":[
         {
         "id":1,
         "nom":"Sene",
         "prenom":"Mamadou",
         "telephne":"70 546 98 13",
         "idClasse":2,
-        "abandon": false
+        "abandon": false,
+        "image": "https://plus.unsplash.com/premium_photo-1715876234432-aee502a59dcd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
         "id":2,
@@ -71,7 +72,8 @@
         "prenom":"Ibra",
         "telephne":"77 456 85 23 ",
         "idClasse":2,
-        "abandon": false
+        "abandon": false,
+        "image": "https://plus.unsplash.com/premium_photo-1715876234432-aee502a59dcd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         },
         {
         "id":3,
@@ -79,7 +81,9 @@
         "prenom":"Gora",
         "telephne":"78 254 96 31",
         "idClasse":3,
-        "abandon": false
+        "abandon": false,
+        "image": "https://plus.unsplash.com/premium_photo-1715876234432-aee502a59dcd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
         },
         {
         "id":4,
@@ -87,7 +91,9 @@
         "prenom":"Baila",
         "telephne":"76 214 13 65",
         "idClasse":4,
-        "abandon": true
+        "abandon": true,
+        "image": "https://plus.unsplash.com/premium_photo-1715876234432-aee502a59dcd?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+
         }
     ]
 
